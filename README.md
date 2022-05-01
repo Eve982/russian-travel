@@ -8,3 +8,5 @@
 - анимация;
 - flex и grid-layout для создания сеток;
 - псевдоклассы и псевдоэлементы.
+
+https://eve982.github.io/russian-travel/#
