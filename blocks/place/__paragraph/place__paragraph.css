@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     margin: 0;
     font-size: 18px;
@@ -6,20 +6,26 @@
     order: 4;
 }
 
-.places__paragraph:nth-of-type(even) {
+.place__paragraph:nth-of-type(even) {
     margin-top: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 1.63;
+    }
 }
 
 @media screen and (max-width: 767px) {
 
-    .places__paragraph {
+    .place__paragraph {
         margin-right: 16px;
         margin-left: 16px;
-        font-size: 16px;
-        line-height: 1.63;
     }
 
-    .places__paragraph:nth-of-type(even) {
+    .place__paragraph:nth-of-type(even) {
         margin-top: 25px;
     }
 }

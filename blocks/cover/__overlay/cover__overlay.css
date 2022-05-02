@@ -1,7 +1,7 @@
 .cover__overlay {
     position: relative;
     width: 100%;
-    min-height: calc(62.5vw - 96px);
+    height: 740px;
     background-image: url(../../../images/cover__background.jpg);
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: #2A2C2F;
     opacity: .3;
     transition: opacity 1s linear;
     width: 100%;
@@ -26,7 +26,7 @@
 }
 
 .cover__overlay:hover::before {
-    opacity: .4;
+    opacity: .8;
 }
 
 @media screen and (max-width: 1279px) {

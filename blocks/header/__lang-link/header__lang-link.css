@@ -4,10 +4,11 @@
     line-height: 1.167;
     text-decoration: none;
     color: white;
+    transition: opacity 1s linear;
 }
 
-.header__lang-link:focus {
-    text-decoration: underline;
+.header__lang-link:hover {
+    opacity: .6;
 }
 
 @media screen and (max-width: 767px) {
